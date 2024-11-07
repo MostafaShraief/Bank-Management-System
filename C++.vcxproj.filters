@@ -60,7 +60,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++.cpp">
+    <ClCompile Include="Bank Management System.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="clsUserScreen.h">
