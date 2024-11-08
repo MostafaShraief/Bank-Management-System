@@ -35,9 +35,9 @@ private:
 	static _enTransactionsOptions _ReadTransactionsOptions()
 	{
 
-		cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 5]? ";
+		cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 6]? ";
 
-		short Option = clsInputValidate::ReadIntNumberBetween(1, 5, "\t\t\t\t     Please Inter Number Between 1 -> 5: ", "\t\t\t\t     Invalid: ");
+		short Option = clsInputValidate::ReadIntNumberBetween(1, 6, "\t\t\t\t     Please Inter Number Between 1 -> 6: ", "\t\t\t\t     Invalid: ");
 
 		return _enTransactionsOptions(Option);
 
